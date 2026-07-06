@@ -9,7 +9,6 @@ variable "project_name" {
 variable "subscription_id" {
   description = "Your Azure subscription ID"
   type        = string
-  sensitive   = true
 }
 
 variable "location" {
